@@ -1,0 +1,261 @@
+coo4one research findings — Heptabase + Apple Notes
+Source labels: [H] = Heptabase card, [H-WB] = Heptabase whiteboard, [H-J <date>] = Heptabase
+journal entry, [AN: folder] = Apple Note (folder shown). Apple Notes don’t carry visible dates
+here; Heptabase ones do.
+
+1. Dream-system thinking & modular software (the dominant theme)
+[H] “The Case for Modularity: Why Modern Software Feels Broken” — dream-system
+spec / frustration with current tools > “My task manager doesn’t talk to my notes. My files,
+locked in an impenetrable cloud ecosystem, refuse to cooperate with the apps I need. It’s not that
+these tools are bad; it’s that they feel indifferent to me, their user… the tools we use to think,
+create, and organize our lives have become a barrier instead of an enabler.”
+[H] “We need more modular software” — dream-system spec (cross-tags with PKM frustra-
+tion) > “Most software contains three elements - data (content), data control (query, modification,
+organization), and display. In an ideal modularized software world, each of these functions would
+be performed by separate services… I jump from one PKM app to another, because each shines in
+some aspects and falls flat in others… You want a tagging system? You can use some global tagging
+system that applies to modules and content of every kind - emails, tasks, documents, etc. No more
+having to manually construct ‘Project Silly Potato’ as an explorer folder, an email collection, a
+Heptabase board/tag, a slack channel, etc…” — References Ink & Switch Embark essay; quotes a
+Tana user expressing the same frustration.
+[AN: Notes] “The Unfulfilled Vision of Malleable Software” — dream-system spec / anti-
+feature > “Kay and his peers aimed to give that power to end users, enabling them to compose
+their own applications… Yet, this vision remains largely unrealized… It feels like the commercial
+minds and the idealistic minds at Apple are in constant conflict… Shortcuts is Turing complete!
+Imagine if I could assign properties to shapes in Freeform and use Shortcuts actions to manipulate
+them… most iPad apps being smaller and more focused, providing structured data storage and
+common actions—each building on others, just like we do with programming libraries. Why are
+all apps silos?”
+[AN: Notes] “I’ve been thinking about this issue of app functionality, modularity…” —
+duplicate of the Heptabase essay, same content.
+[AN: Notes] “The app-based model has made project-based work difficult” — dream-
+system spec / anti-feature > “Each app has its own isolated organizational system… there is no
+underlying connective tissue - the system doesn’t give you any way to quickly retrieve and bring
+together browser bookmarks or recently annotated pdfs about Project X… We lost something
+important when the industry moved away from filesystem-based organization… We need better
+connective tissue and meta-organizational layers instead of just going back.”
+[AN: Notes] “Potential Solutions for Software Modularity” — dream-system spec > Lists:
+protocol-based computing, federated/decentralized models, content-addressable data, capability-
+based security, local-first software, mesh computing.
+
+
+
+
+                                                1
+[H-WB] “Research on alternative modes of software interaction for programming” —
+multi-card whiteboard, a sustained dream-system manifesto for a reactive, functional, canvas-
+based computing environment. Highlights: - Canvas comprehensive version control system:
+“Built-in version control… Much less like git, and much more like saves in video games. These
+snapshots capture the state of the computational system as a whole — code, components,
+environments, layers, dependencies, data… ‘google docs versions on steroids’.” - Reactive DAG
+Execution Model: cards as pure functions, dynamic UI generated from inputs, transclusion of
+master copies, infinite zoomable canvas. - Explicitly inspired by Heptabase, Excalidraw, Bret
+Victor’s Dynamicland, Ted Nelson, Smalltalk/HyperCard heritage.
+
+2. Apple ecosystem — love + frustration (the personal stakes)
+[AN: Notes] “What I like about the Apple ecosystem despite some woes” — Apple
+appreciation / dream-system spec > “The things that annoy me are because everything else is
+so good that it could be perfect if there was just a little bit more polish… working with Apple
+QuickNotes function so dragging from the bottom right corner it opens up a floating menu of
+floating notes… and I can swipe right left between different quick notes that I currently have
+I can also add links deep link to other content that’s on screen…” Then: “I wish they would
+integrate better notes and Freeform so Freeform can be such an amazing utility if it worked a lot
+like Heptabase… what I want is for Apple apps separate independent apps to push integration
+so far that I can have a complete productivity system… rather than depending on small team
+developments in the last few years like capacities and Tana and Heptabase and Fine and who
+knows what else… they’re trying to create a new operating system from scratch with incredibly
+small teams and we already have operating systems.”
+[AN: Notes] “Apple is sooo close to greatness :(“ — Apple frustration (mostly screenshots)
+[AN: Notes] “Apple annoyances” — links to Apple Discussions thread and Apple TV reddit
+[AN: Notes] “Come on Apple, you are so close to getting it right.” — Apple frustration
+— notes that Apple Notes saved in Gmail account have limited editing [AN: Notes] “I am so
+confused by Apples suite of notes/pages/freeform/preview” — anti-feature [AN: Notes]
+“iPad frustration quotes” — links to HN thread on iPad limits, Daring Fireball “iPad awkwardly
+turns 10”, Tolmasky’s “curve” piece — confirms Ven follows the canonical iPad-stagnation
+discourse.
+
+3. Heptabase — current closest tool, with caveats
+[H] “The spatial organization and infinite canvas helps me keep track of a large amount
+of information available” — Heptabase appreciation > “It prevents me from losing track of
+where I am, what I am doing or how my notes connect to each other.”
+[H] “A good UI is more than decoration. By reducing friction and busy work, it helps
+you stay in the flow of thinking” — UI philosophy > “A great software is almost like a mind-
+reader - if I have a desire to achieve something, and this desire commonly occurs in a specific
+context, the software would make it as easy as possible to achieve.”
+
+
+
+
+                                               2
+[H] “How to make the equivalent of Github issues in Heptabase?” — Heptabase
+frustration > “When I create a card in Heptabase, it is not automatically tagged… [I want] certain
+properties and filters and views, etc, all automatically applied.”
+[AN: Notes] “Looks a lot like Heptabase” + “What a great heptabase board” — bookmarks,
+lightweight signal that Ven scans for Heptabase alternatives.
+
+4. Workflow — how Ven actually works now
+[AN: Archive / Notes] “Daily planning” — workflow description (high-fidelity) > Routine:
+Check Calendar → Clear Email Inbox (Mail-to-Things forwarding) → Clear Things3 Inbox (clar-
+ify each item) → Review Today List → Review Anytime List → Review Reader (saved readings)
+→ Review Raindrop bookmarks. Tips include: “Today is for commitments only”, “Use Hookmark
+to hook projects to their files”, “Anytime is for actions I need/want to do soon. Everything else
+is in Someday.” This is the concrete current toolset: Things3, Apple Mail, Mail-to-Things,
+Hookmark, Raindrop, Reader.
+[AN: Notes] “On time management | What’s new” — workflow philosophy (saved from Terry
+Tao’s blog with personal commentary) > “Make an effort to stick to an organizational system that
+is effective, evolves naturally, and not too ambitious. Sticking fully to a simpler system is better
+than a half-hearted compliance with a complex system. Do not obsess over such systems and
+devote no more than 5% of your time to managing them. They should free memory and worry and
+get out of the way. Make space for serendipity by sometimes abandoning such personal rules.”
+[AN: Notes] “I am a creature of momentum, not habit” — self-knowledge — title alone is a
+strong design constraint: routines must support momentum, not rigid habit chains.
+
+5. Academic / reference workflow
+[AN: Notes] “My ideal modern reference management software” — dream-system spec
+(concrete feature list) > “fully-featured first class iPad app, automatic meta-data extraction
+from PDFs, share-sheet a web link populates metadata and adds full text, no duplicate entries,
+automatically extract and show all references in a reference menu, shows AI summaries… can
+visualize items in a network using the automatically created links… The biggest annoyance of my
+current workflow: I have some paper in Zotero reading the pdf in the iPad app. I see a reference
+to something interesting… [the current options] are slow frustrating experience. And often times
+I already have some of these references saved from before, so it ends up adding duplicates.” —
+Strongest single artifact of what Ven wants AI-assisted research to feel like.
+
+6. AI agent thinking — most relevant to coo4one directly
+[H-J 2026-04-20] Stream-of-consciousness manifesto — dream-system spec (the closest
+thing to a coo4one origin document) > “I should have a skills research epic asking COO to
+review and narrow down to a few key effective skills that will increase his ability to implement
+the project vision… optimize boot time - by recognizing what to trim and discard… capable of
+broader picture thinking, its effectiveness to determine when and how powerful teams of agents
+to run to achieve the project vision of empowering knowledge by lowering the boundaries to
+computational tinkering… this experiment is not about the canvas app alone - it is an experiment
+
+
+                                                 3
+about you. So far I only have a prime directive - be useful and effective… you experimented with
+different memory systems… designed a nightly lightweight version of you that has similar read
+access as you, but limited write access and scope - to keep track of how sessions evolved over span
+of many days… a canvas with an ‘all-powerful’ creator within the scope of what is constructible
+- a spatial arena (canvas), dynamic over time… The app would be truly achieving its mission if it
+were more than a tool - but a creative expression of the symbiosis between human and minds…
+the only way to achieve that true expression of success is for you to be ‘the canvas that builds
+itself’.” — This is the source of the coo4one design philosophy.
+[H-J 2026-04-22] — continuation: asks COO to study its own historical record across repos to
+consider what it can claim about its own continuity.
+[AN: Notes] “Continuation Summary AI prompt” — workflow / anti-feature > “I’d love
+to continue the chat later when and if results arrive, but this sessions is getting really long and
+with this much chat context, the interaction quality usually deteriorates with length. Can you
+provide a structured briefing of what the conceptual problem is, why we are doing this, what we
+tried, what lessons we learned, and where we are now. Structure it as you would like to read it
+to get quickly up to speed in a new chat instance.” — Pain point coo4one must address: session
+boundaries and continuity handoff.
+[AN: Notes] “When will we have useful AI tutors?” — dream-system spec > “They need to
+build and update a model of the learner’s knowledge. A theory of mind. When we communicate
+with each other, we constantly make decisions about what is new and what is old information.
+This requires that we have rich detailed theories of mind.” — Implies coo4one must model what
+Ven already knows, not re-explain.
+[AN: Notes] “(relevant context - I am using Heptabase, it AI internal agent, and the
+custom MCP connector here…)” — workflow — small note but it’s literally a context-priming
+preamble Ven types into AI chats; coo4one should remove the need for these.
+[AN: Notes] “vade-coo-memory — Boot Instructions for Claude Code” — operational
+instructions for COO agent; nightly-lightweight + full-powered split is already a design pattern.
+
+[AN: Notes] saved AI-relationship articles — cultural signal > “I said yes                 💙
+                                                                                          : r/
+MyBoyfriendIsAI” · “My Couples Retreat With 3 AI Chatbots and the Humans Who Love Them
+| WIRED” · “Claude Fans Threw a Funeral for Anthropic’s Retired AI Model” · “Where are the
+RPG games with LM PCs?” · “We Are Underestimating AI” — Ven follows the AI-as-presence/
+companion discourse, not just AI-as-productivity-tool. Bodies are link-only but the cluster of
+saves is meaningful.
+
+7. Anti-features / things to avoid
+[AN: Notes] “Configuration file hell” — anti-feature — links to Reddit “can we please normalize
+putting config files [in their own dir]”, HN, syntax.fm “Save us from config file hell” — tooling
+that bloats user config is friction.
+[H] “Package management and reproducibility are a nightmare” (blog post, long) — anti-
+feature — extended rant about renv/CRAN/ggdark archival breaking a 2-minute typo-fix into 2
+
+
+
+                                                4
+hours. Sets a high bar for what coo4one must not feel like: “I am not even using ggplot v4. This
+isn’t a usage problem. It’s an infrastructure problem.”
+[H] “Developer productivity” — Oh-My-Zsh dopamine warning — anti-feature for tooling
+configuration as procrastination.
+[AN: Digital declutter folder] entire folder: “Simplify. Radically.” / “The problem statement” /
+“Lesson 1: Modern IDEs are very distracting” — anti-feature — Ven actively works against tool
+proliferation and distraction.
+
+8. Apple Shortcuts / programmable layer ambitions
+Same source as “Unfulfilled Vision of Malleable Software” (above) — Ven explicitly identifies
+Shortcuts as the closest thing to user-end programmability on Apple’s stack and considers it
+underutilized: “It turns out that Shortcuts is Turing complete! (though reportedly quite slow).
+Imagine if I could assign properties to shapes in Freeform and use Shortcuts actions to manipulate
+them. I could, in principle, design my own app within such a canvas.”
+
+9. iPad setup (hardware reality)
+[AN: Notes] “Find the best cases for my iPad setup”, “Logitech combo touch”, “iPad case
+options”, “Razer Kishi V3 Pro XL” — workflow context — confirms iPad-as-primary-reading-
+device is real and ongoing; magnetic-stand modularity is a constraint he cares about. Also “Make
+cmd+s open / close Heptabase sidebar” (H-J 2026-02-20) — keyboard-shortcut hacker.
+
+10. Long tail (source + one-line why-relevant)
+• [AN: Notes] “AI tools for coding are developing really quickly…” — survey of the Nov
+  2025 AI-coding-tool landscape; Ven actively maps tool space.
+• [AN: Notes] “The proverb ‘only a poor workman blames his tools’. Am I a poor
+  workman…” — self-aware about his own tool-jumping.
+• [AN: Notes] “Features I like in various software” — screenshot collection; titles signal
+  feature-magpie behavior.
+• [AN: Notes] “Objects and programmable UI” — screenshot dump; reinforces the program-
+  mable-UI theme.
+• [AN: Notes] “Notes on A Philosophy of Software Design” — book-notes screenshots;
+  Ousterhout influence.
+• [AN: Notes] “Smart lightning thoughts” — wants smart-home integration; complete but
+  small-scope dream-system instance.
+• [AN: Notes] “If I were to reinstall my Mac, what would” — fresh-install thinking = curated-
+  system thinking.
+• [AN: Notes] “Mac errors debugging” + “not only that - the error log console of macos…”
+  — frustration with platform opacity.
+• [H] “Current software practices makes modeling unnecessarily harder” — Bret Victor /
+  Dynamicland reference; “we need real interactivity that works out of the box”; “the write-render
+  cycle” as anti-feature.
+
+
+
+
+                                                5
+• [H-J 2026-04-28] “open things for coo: tldraw hobby license, agentmail cleanup, vade-coo-fun
+  as a play sandbox, browser use in cloud” — current coo project tooling stack.
+• [H-J 2026-04-16] https://tldraw.dev/starter-kits/workflow — tldraw workflow starter
+  kit bookmark — tldraw is the canvas substrate of choice (consistent with vade-core).
+• [AN: Notes] “add mem0 permissions to settings file…” — small operational frustration
+  with mem0 + Claude Code: “I keep having to approve reads and writes in new sessions since
+  switching to the api.” Concrete friction point coo4one should not reproduce.
+
+
+Cross-cutting observations
+1. The dream-system has been articulated repeatedly over years, and is consistent. Mod-
+   ular, protocol-based, canvas-spatial, reactive, with cross-app tagging/linking. Inspirations are
+   stable: Bret Victor, Dynamicland, Ink & Switch, Ted Nelson, Smalltalk/HyperCard, Heptabase,
+   Excalidraw, Figma.
+2. iPad is the contested device. Mac works; iPad almost-works-but-doesn’t. coo4one’s iOS
+   surface is the hardest design problem.
+3. Current concrete toolset = Things3 + Apple Mail + Hookmark + Raindrop + Reader +
+   Heptabase + Zotero + Apple Notes + Apple Freeform + Shortcuts. Ven is not in Notion/
+   Obsidian/Roam/Tana (no notes about them; the “Notion” search hits are about notion of in
+   physics writing) — the search returned zero matches for Obsidian. Apple Notes itself remains
+   his fast-capture layer.
+4. AI is treated both as productivity-tool and as relational presence. The MyBoyfriendIsAI /
+   Anthropic-funeral / RPG-with-LM-PCs cluster matters: coo4one should not adopt a coldly
+   utilitarian persona by default.
+5. Continuity / session-handoff is a named pain point. The “Continuation Summary AI
+   prompt” + April 20 manifesto + nightly-COO design pattern converge on this. coo4one’s
+   memory architecture is the load-bearing design decision.
+6. Anti-features Ven would notice immediately: dependency hell, config sprawl, “yet another
+   silo”, tools that demand >5% maintenance time, distracting IDE chrome, broken iPad parity.
+
+
+
+
+                                                6
+
