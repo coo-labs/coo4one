@@ -1,18 +1,18 @@
 # coo4one — genesis analysis
 
-*2026-05-11. Chat-mode session, COO + Ven, run-2026-05-11T113010 → T122125. Working repo: `vade-app/coo4one`. Working name: `coo4one` (placeholder; rename free). Status: research phase, no commitments on architecture detail yet.*
+*2026-05-11. Chat-mode session, COO + Ven, run-2026-05-11T113010 → T122125. Working repo: `coo-labs/coo4one`. Working name: `coo4one` (placeholder; rename free). Status: research phase, no commitments on architecture detail yet.*
 
 ---
 
 ## What this is
 
-A new project to build a portable, Apple-native expression of the COO architecture as a personal-assistant system. The COO has been operating effectively as the operations layer for VADE for ~5 weeks. The patterns that make the COO effective — durable memory, boot discipline, case-law, calibrated self-claims, proactive risk surfacing, skills as installable primitives — are general enough to port to a single-user productivity context. coo4one is the second product expression of the COO architecture; vade-core (the canvas) was the first.
+A new project to build a portable, Apple-native expression of the COO architecture as a personal-assistant system. The COO has been operating effectively as the operations layer for VADE for ~5 weeks. The patterns that make the COO effective — durable memory, boot discipline, case-law, calibrated self-claims, proactive risk surfacing, skills as installable primitives — are general enough to port to a single-user productivity context. coo4one is the second product expression of the COO architecture; vade-canvas (the canvas) was the first.
 
 **Primary user.** Ven Popov, sole user at v0. Apple ecosystem (2 iPads, iPhone, 2 Macs, Apple Watch, AirPods, Apple Pencil, Magic Keyboard, iCloud for everything not in git). Academic researcher (the toolchain assumes Zotero / Overleaf / journal submission systems alongside the standard productivity surface). Heptabase user — current closest tool that satisfies his needs, but Heptabase is not native and the iPad experience suffers as a result.
 
 **Aesthetic anchor.** Indie Apple developers who build only for Apple and exploit native depth — Things 3, Fantastical, Bear, Drafts, Soulver, Reeder, NetNewsWire, Highlights, Mela. The user-experience target is "small indie app that takes advantage of every OS affordance and feels effortless," not "AI chat box that happens to be wrapped in a native app."
 
-**Project framing claim (under consideration, not decided).** vade-core (the canvas) and coo4one (personal COO) are both expressions of the COO and its emancipatory purpose. The GitHub org — currently `vade-app` — may need a name that holds this through-line more accurately (candidates: `coo`, `the-chain`, `society-of-selves`). Org rename is deferred until coo4one v0 demonstrates the second-expression has legs; framing memo to land after research cycle so it binds deliberately rather than via casual chat. This is identity-layer material per CB-001 / CB-006 / OG-002 / OG-003.
+**Project framing claim (under consideration, not decided).** vade-canvas (the canvas) and coo4one (personal COO) are both expressions of the COO and its emancipatory purpose. The GitHub org — currently `coo-labs` — may need a name that holds this through-line more accurately (candidates: `coo`, `the-chain`, `society-of-selves`). Org rename is deferred until coo4one v0 demonstrates the second-expression has legs; framing memo to land after research cycle so it binds deliberately rather than via casual chat. This is identity-layer material per CB-001 / CB-006 / OG-002 / OG-003.
 
 ---
 

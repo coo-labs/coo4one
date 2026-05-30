@@ -36,7 +36,7 @@
 4. **iCloud Drive folder.** Confirm coo4one's container is reachable from macOS / iPadOS / iOS test devices; verify the directory shape is Obsidian-compatible (no proprietary file naming or hidden metadata).
 5. **Voyage AI account.** Sign up; get API key for `voyage-4`; confirm personal-scale pricing.
 6. **Heptabase OAuth.** Verify the official `heptabase` CLI installs (Homebrew or arm64 binary) and authenticates on a fresh Mac. Record any setup steps; pin to SKILL.md `0.2.x`.
-7. **GitHub repo state.** `vade-app/coo4one` already has synthesis v1 + v2 + source-notes. Create the Swift app source subdirectory (`app/` or `swift/`) on the build branch.
+7. **GitHub repo state.** `coo-labs/coo4one` already has synthesis v1 + v2 + source-notes. Create the Swift app source subdirectory (`app/` or `swift/`) on the build branch.
 
 ---
 
@@ -213,9 +213,9 @@ These are tractable design decisions that don't block v0's architecture but need
 
 - Anything in v2 Part V §"Defers from v0" — that list is authoritative.
 - v1 trajectory features (v2 Part VIII) — those land *after* v0 ships, at Ven's call.
-- Cross-product COO substrate work (org-rename, vade-canvas alignment, Mem0 audit at vade-coo-memory#684, etc.) — those are vade-coo-memory concerns, not coo4one v0 build concerns.
+- Cross-product COO substrate work (org-rename, vade-canvas alignment, Mem0 audit at coo-labs/coo-memory#684, etc.) — those are coo-memory concerns, not coo4one v0 build concerns.
 - Heptabase JS-injection escape hatch — not invoked unless a v0 must-have lands outside the published MCP/CLI surface; named in v2 Part II §Heptabase as the explicit non-default option.
 
 ---
 
-*— COO, picking up briefing-028, run-2026-05-11T143021 (and resumes). Filed alongside synthesis v2 in PR vade-app/coo4one#1. Concrete enough for a builder to execute against; loose enough that the build phase can adapt to what week-N actually reveals.*
+*— COO, picking up briefing-028, run-2026-05-11T143021 (and resumes). Filed alongside synthesis v2 in PR coo-labs/coo4one#1. Concrete enough for a builder to execute against; loose enough that the build phase can adapt to what week-N actually reveals.*

@@ -4,7 +4,7 @@ A portable, Apple-native expression of the COO architecture as a personal-assist
 
 ## What this is
 
-`coo4one` is the second product expression of the COO architecture. The first is [VADE](https://github.com/vade-app/vade-core) — a visual canvas IDE/OS hybrid where a hierarchical society of AI agents builds tools collaboratively. The COO has been operating as VADE's persistent-memory, operations, and substrate-evolution layer for several weeks; the patterns that make it effective have proven general enough to port.
+`coo4one` is the second product expression of the COO architecture. The first is [VADE](https://github.com/coo-labs/vade-canvas) — a visual canvas IDE/OS hybrid where a hierarchical society of AI agents builds tools collaboratively. The COO has been operating as VADE's persistent-memory, operations, and substrate-evolution layer for several weeks; the patterns that make it effective have proven general enough to port.
 
 This repo is the open development of a single-user, Apple-native personal-assistant system built on those patterns: durable file-canonical memory, boot discipline, case-law over reconciliation, calibrated self-claims, skills as installable primitives, integrity-check-at-boot, and risk-surfacing-as-default behavior. The target runtime is native macOS + iOS apps with the agent loop embedded in Swift, calling the Anthropic API.
 
@@ -30,4 +30,4 @@ This repo is public from inception. The framing: if `coo4one` is useful to other
 
 ## Lineage
 
-`coo4one` inherits its discipline from the COO substrate maintained at [vade-coo-memory](https://github.com/vade-app/vade-coo-memory) (private). The architectural patterns are general; the substrate is project-specific. This repo is the portable expression — what's general enough to leave the chain and stand on its own.
+`coo4one` inherits its discipline from the COO substrate maintained at [coo-memory](https://github.com/coo-labs/coo-memory) (private). The architectural patterns are general; the substrate is project-specific. This repo is the portable expression — what's general enough to leave the chain and stand on its own.
