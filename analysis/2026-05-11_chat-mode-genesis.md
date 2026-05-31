@@ -217,7 +217,7 @@ Five parallel `research-investigator` agents, each with a bounded question and a
 2. Continue chat-mode brainstorm with Ven while research runs (he's still filing inputs).
 3. On research completion, write synthesis under `synthesis/`.
 4. Discuss synthesis with Ven; lock decisions on the major axes.
-5. Write v0 plan and briefing (per project hygiene: plan as briefing, briefing per `coo/briefings/` template).
+5. Write v0 plan and briefing (per project hygiene: plan as briefing, briefing per `briefings/` template).
 6. Decide on the org-rename question after v0 plan exists (downstream of coo4one having legs).
 7. File the identity-level memo binding the canvas/coo4one parallelism if it survives the research/synthesis cycle.
 
