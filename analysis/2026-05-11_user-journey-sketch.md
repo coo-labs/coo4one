@@ -22,7 +22,7 @@ The agent's first turn is a brief Q&A that establishes the identity-layer file f
 - How do you prefer to be talked to — direct or warm? Bullet-heavy or prose? Push back when wrong, or always agree?
 - Which tools do you live in? (Surface menu: Zotero, Heptabase, Gmail, Outlook, Things, Fantastical, GitHub, 1Password, others-textfield.) Tools get connected one at a time via OAuth or MCP-style flow, not in a single onboarding sweep — the user can connect tools as they become needed.
 
-After the Q&A, the agent writes `identity/charter.md`, `identity/preferences.md`, and an empty `coo/episodic_memory.md` to the local store. Shows the files to the user briefly — "this is what I now know about you; you can edit these any time and I'll honor them." This both demonstrates the file-canonical pattern and gives the user a felt sense of "I own my memory" rather than "I'm uploading to a black box."
+After the Q&A, the agent writes `identity/charter.md`, `identity/preferences.md`, and an empty `identity/episodic_memory.md` to the local store. Shows the files to the user briefly — "this is what I now know about you; you can edit these any time and I'll honor them." This both demonstrates the file-canonical pattern and gives the user a felt sense of "I own my memory" rather than "I'm uploading to a black box."
 
 The agent then asks one operational question: "What should I do for you right now?" If the user says "nothing yet, I'm just exploring" — perfect; the agent recedes and waits. If the user says something concrete — the agent's first real turn happens.
 
